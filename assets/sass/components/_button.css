@@ -1,0 +1,6 @@
+Undefined mixin.
+   ╷
+14 │         @include vendor('appearance', 'none');
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  c:\Repos\brando-memorial\assets\sass\components\_button.scss 14:3  root stylesheet
