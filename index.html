@@ -124,18 +124,18 @@
       </section>
 
       <!-- Section -->
-      <section>
-        <header>
+      <!-- <section> -->
+      <!-- <header>
           <h2>Ultrices erat magna sed condimentum</h2>
         </header>
         <div class="content">
           <p>
             <strong>Integer mollis egestas</strong> nam maximus erat id euismod
             egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
-          </p>
+          </p> -->
 
-          <!-- Section -->
-          <section>
+      <!-- Section -->
+      <!-- <section>
             <header>
               <h3>Erat aliquam</h3>
               <p>
@@ -161,10 +161,10 @@
                 /></a>
               </div>
             </div>
-          </section>
+          </section> -->
 
-          <!-- Section -->
-          <section>
+      <!-- Section -->
+      <!-- <section>
             <header>
               <h3>Nisl consequat</h3>
               <p>
@@ -187,10 +187,10 @@
                 /></a>
               </div>
             </div>
-          </section>
+          </section> -->
 
-          <!-- Section -->
-          <section>
+      <!-- Section -->
+      <!-- <section>
             <header>
               <h3>Lorem gravida</h3>
               <p>
@@ -213,12 +213,12 @@
                 /></a>
               </div>
             </div>
-          </section>
-        </div>
-      </section>
+          </section> -->
+      <!-- </div> -->
+      <!-- </section> -->
 
       <!-- Section -->
-      <section>
+      <!-- <section>
         <header>
           <h2>Duis sed adpiscing veroeros amet</h2>
         </header>
@@ -233,11 +233,11 @@
             <li><a href="#" class="button large">Learn More</a></li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Elements -->
 
-      <section>
+      <!-- <section>
         <header>
           <h2>Elements</h2>
         </header>
@@ -482,7 +482,12 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
               <h3>Form</h3>
             </header>
             <div class="content">
-              <form method="post" action="#">
+              <form method="post" action="https://api.web3forms.com/submit">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="79e4e998-9fd6-407e-9617-9305d39e928c"
+                />
                 <div class="fields">
                   <div class="field half">
                     <label for="demo-name">Name</label>
@@ -535,15 +540,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
                     <input type="checkbox" id="demo-copy" name="demo-copy" />
                     <label for="demo-copy">Email me a copy</label>
                   </div>
-                  <div class="field half">
-                    <input
-                      type="checkbox"
-                      id="demo-human"
-                      name="demo-human"
-                      checked
-                    />
-                    <label for="demo-human">Not a robot</label>
-                  </div>
+                  <div class="field half"></div>
                   <div class="field">
                     <label for="demo-message">Message</label>
                     <textarea
@@ -564,7 +561,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
             </div>
           </section>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section -->
       <section>
@@ -577,7 +574,12 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
             ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
             dolor mattis sagittis.
           </p>
-          <form>
+          <form method="post" action="https://api.web3forms.com/submit">
+            <input
+              type="hidden"
+              name="access_key"
+              value="79e4e998-9fd6-407e-9617-9305d39e928c"
+            />
             <div class="fields">
               <div class="field half">
                 <input type="text" name="name" id="name" placeholder="Name" />
@@ -599,6 +601,10 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
                 ></textarea>
               </div>
             </div>
+            <div class="field">
+              <!-- hCaptcha Spam Protection -->
+              <div class="h-captcha" data-captcha="true"></div>
+            </div>
             <ul class="actions">
               <li>
                 <input
@@ -609,6 +615,11 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
               </li>
             </ul>
           </form>
+          <script
+            src="https://web3forms.com/client/script.js"
+            async
+            defer
+          ></script>
         </div>
         <footer>
           <ul class="items">
