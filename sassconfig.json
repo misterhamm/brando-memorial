@@ -1,0 +1,10 @@
+{
+    "outDir?": "../css",
+    "removeComments?": true,
+    "sourceMaps?": true,
+    "indentType?": "tab",
+    "indentWidth?": 5,
+    "linefeed?": "crlf",
+    "omitSourceMapUrl?": false,
+    "outputStyle?": "expanded"
+}
