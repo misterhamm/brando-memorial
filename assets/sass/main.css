@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import '../css/fontawesome-all.min.css';
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -139,7 +139,7 @@ body {
 
 body, input, select, textarea {
   color: #003125;
-  font-family: "Open Sanes", Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 0.0375em;
@@ -175,7 +175,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #003125;
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Play", Helvetica, sans-serif;
   font-weight: 600;
   letter-spacing: 0.175em;
   line-height: 1.75;
@@ -188,7 +188,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-family: "Open Sanes", Helvetica, sans-serif;
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: -0.05em;
@@ -1466,7 +1465,7 @@ button,
   color: #003125 !important;
   cursor: pointer;
   display: inline-block;
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Play", Helvetica, sans-serif;
   font-size: 0.6rem;
   font-weight: 600;
   height: 3rem;
@@ -1709,7 +1708,7 @@ textarea:focus {
 label {
   color: #003125;
   display: block;
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Play", Helvetica, sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.175em;
@@ -1770,7 +1769,7 @@ input[type=radio] + label {
   color: #003125;
   cursor: pointer;
   display: inline-block;
-  font-family: "Open Sanes", Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 0.0375em;
@@ -2666,7 +2665,7 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   margin: 0 0 5rem 0;
 }
 #wrapper section > header h1 + p {
-  font-family: "Quicksand", Helvetica, sans-serif;
+  font-family: "Play", Helvetica, sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.175em;
   line-height: 2.5;
@@ -2962,15 +2961,12 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
     margin-bottom: 0;
   }
   #wrapper > section.intro > header ul.actions {
-    display: none;
+    margin-bottom: 15px;
   }
   #wrapper > section.intro > header > * {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
-  }
-  #wrapper > section.intro > header > ul.actions {
-    margin-left: -1rem;
   }
   #wrapper > section.intro > header:before {
     margin-left: 0;

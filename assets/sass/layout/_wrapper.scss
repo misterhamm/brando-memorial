@@ -500,7 +500,7 @@
 								margin-bottom: 0;
 
 								ul.actions {
-									display: none;
+									margin-bottom: 15px;
 								}
 
 								// Hack: Undo Chrome grid hack.
@@ -510,9 +510,9 @@
 										width: 100%;
 									}
 
-									> ul.actions {
-										margin-left: (_size(element-margin) * -0.5);
-									}
+									// > ul.actions {
+									// 	margin-left: (_size(element-margin) * -0.5);
+									// }
 
 									&:before {
 										margin-left: 0;
