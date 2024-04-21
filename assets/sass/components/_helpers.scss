@@ -14,3 +14,37 @@
     width: 100% !important;
     max-width: 100%;
 }
+
+.cta-buttons {
+    a { 
+        display: block;
+
+        &:first-child {
+            margin-bottom: 20px;
+        }
+    }
+
+    @include breakpoint('>=medium') {
+        display: flex;
+        justify-content: space-between;
+
+        a { 
+            width: 48%;
+    
+            &:first-child {
+                margin-bottom: 0;
+            }
+        }
+
+    }
+}
+
+.donate-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        margin-right: 12px;
+    }
+}

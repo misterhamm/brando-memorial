@@ -1617,6 +1617,34 @@ button.small,
   max-width: 100%;
 }
 
+.cta-buttons a {
+  display: block;
+}
+.cta-buttons a:first-child {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 737px) {
+  .cta-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cta-buttons a {
+    width: 48%;
+  }
+  .cta-buttons a:first-child {
+    margin-bottom: 0;
+  }
+}
+
+.donate-button {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.donate-button svg {
+  margin-right: 12px;
+}
+
 /* Form */
 form {
   margin: 0 0 2rem 0;
