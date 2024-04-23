@@ -21,6 +21,7 @@
         document.getElementById("sponsor-form").submit();
       }
     </script>
+    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
 
     <title>Support Us | Brandon's Community Walk</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -250,7 +251,13 @@
             />
             <div class="fields">
               <div class="field half">
-                <input type="text" name="name" id="name" placeholder="Name" />
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
               </div>
               <div class="field half">
                 <input
@@ -258,6 +265,7 @@
                   name="email"
                   id="email"
                   placeholder="Email"
+                  required
                 />
               </div>
               <div class="field">
@@ -272,6 +280,13 @@
                 <label for="logo">Logo</label>
                 <input type="file" id="logo" name="logo" />
               </div>
+              <input
+                type="hidden"
+                id="logo"
+                name="logo"
+                role="uploadcare-uploader"
+                data-public-key="0da0051db9ed6b8ba0e3"
+              />
               <div class="field">
                 <textarea
                   name="message"
